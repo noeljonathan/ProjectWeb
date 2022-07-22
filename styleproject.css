@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #60e2b9;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+}
+
+header h1{
+    font-size: 30px;
+    color: bisque;
+    padding: 0px 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li{
+    margin-right: 10px;
+}
+
+#myprofile{
+    text-align: center;
+    margin-top: 120px;
+}
+
+#myprofile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 5px 10px #d0cccc;
+    margin-bottom: 40px;
+}
+
+#perkenalan{
+    text-align: center;
+    background-image: linear-gradient(to right, #35f6c6, #06ffa8);
+    padding: 20px;
+}
+
+#perkenalan h2{
+    color: rgb(73, 155, 117);
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.pkr{
+    margin: 75px 225px;
+    padding: 40px 80px;
+    background-color: #FFFF;
+    border-radius: 12px;
+}
+
+#myskill {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#myskill h2{
+    color: rgb(73, 155, 117);
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    /* background-image: linear-gradient(to right #efefef, #8f8f8f); */
+    
+}
+
+.skill img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.language{
+    width: 250px;
+    padding: 40px;
+    font-size: large;
+    line-height: 35px;
+    font-weight: 100;
+    background-color: #06ffda;
+    border-radius: 25px;
+    
+}
+
+#hobi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin-top: 30px;
+    background-color: #35f6c6;
+}
+
+#hobi h2{
+    color: rgb(73, 155, 117);
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#hobi p{
+    font-size: large;
+    line-height: 35px;
+    font-weight: 100;
+    background-color: #FFFF;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+#sosmed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    margin: 20px;
+}
+
+#sosmed h2{
+    color: rgb(73, 155, 117);
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#sosmed img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#sos{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    background-color: #3D3D3D;
+    padding: 40px;
+}
+
+footer p{
+    text-align: center;
+    color: #FFFF;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#sos h2 a {
+    text-decoration: none;
+    color: #06ffa8 ;
+}
